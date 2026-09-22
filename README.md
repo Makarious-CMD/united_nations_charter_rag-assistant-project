@@ -19,22 +19,7 @@ This is a Retrieval-Augmented Generation (RAG) web application designed to act a
 - **Vector Database:** ChromaDB
 - **LLM Engine:** Ollama (Local LLM)
 - **Embeddings:** HuggingFace / Sentence-Transformers
-
-## 📂 Project Structure
-```text
-  Graduation Project /
-│
-├── rag_assistant_project/
-│   └── rag_pipeline.ipynb      # Data extraction, chunking, and evaluation
-│
-├── backend/
-│   ├── app/
-│   │   ├── main.py             # FastAPI entry point
-│   │   ├── api/routes/query.py # API endpoints
-│   │   └── services/           # Retrieval and LLM calling logic
-│   ├── data/vector_store/      # Persisted ChromaDB
-
-
+  
 ## 🧠 Advanced Methodology & Anti-Hallucination Strategy
 Given the sensitive nature of International Law and the United Nations Charter, minimizing hallucinations and ensuring absolute factual accuracy is critical. To achieve this, the project implements a highly optimized, resource-efficient architecture:
 
@@ -61,3 +46,21 @@ This hybrid approach achieves the "impossible equation"—maximizing the reasoni
     ├── app.py                  # Chat UI
     ├── api_client.py           # Backend communication
     └── requirements.txt
+
+
+
+## 📂 Project Structure
+```text
+  Graduation Project /
+│
+├── rag_assistant_project/
+│   └── rag_pipeline.ipynb      # Data extraction, chunking, and evaluation
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py             # FastAPI entry point
+│   │   ├── api/routes/query.py # API endpoints
+│   │   └── services/           # Retrieval and LLM calling logic
+│   ├── data/vector_store/      # Persisted ChromaDB
+
+
