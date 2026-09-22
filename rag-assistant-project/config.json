@@ -1,0 +1,6 @@
+{
+    "embedding_model": "all-MiniLM-L6-v2",
+    "vector_database": "ChromaDB",
+    "total_chunks": 111,
+    "chunking_strategy": "Article-level semantic chunking with regex filtering"
+}
