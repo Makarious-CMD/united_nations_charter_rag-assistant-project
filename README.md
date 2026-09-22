@@ -39,15 +39,8 @@ This hybrid approach achieves the "impossible equation"—maximizing the reasoni
 | **Hallucination Rate** | less 5-7% | Mitigated by Temperature = 0.1 and strict prompt constraints. |
 | **Retrieval Quality** | High | Enhanced by Top-K + Reranking strategy. |
 
-*(Detailed question/answer breakdown is available in the `notebooks/rag_pipeline.ipynb` evaluation table).*
-│   └── requirements.txt
-│
-└── frontend/
-    ├── app.py                  # Chat UI
-    ├── api_client.py           # Backend communication
-    └── requirements.txt
 
-
+*(Detailed question/answer breakdown is available in the `rag_assistant_project/rag_pipeline.ipynb` evaluation table).*
 
 ## 📂 Project Structure
 ```text
