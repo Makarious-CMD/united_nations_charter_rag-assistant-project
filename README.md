@@ -54,6 +54,11 @@ This hybrid approach achieves the "impossible equation"—maximizing the reasoni
 │   │   ├── main.py             # FastAPI entry point
 │   │   ├── api/routes/query.py # API endpoints
 │   │   └── services/           # Retrieval and LLM calling logic
-│   ├── data/vector_store/      # Persisted ChromaDB
-
+│   ├── data/vector_store/      # Persisted ChromaDB 
+│   └── requirements.txt
+│
+└── frontend/
+    ├── app.py                  # Chat UI
+    ├── api_client.py           # Backend communication
+    └── requirements.txt
 
