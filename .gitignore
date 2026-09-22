@@ -7,6 +7,3 @@ itienv/
 .venv/
 __pycache__/
 *.log
-
-# تجاهل قاعدة البيانات الاتجاهية لأن حجمها كبير
-data/vector_store/
